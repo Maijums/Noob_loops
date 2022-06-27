@@ -62,20 +62,6 @@ for ($i = 1; $i <= $num; $i++) {
 
         } elseif (($num >= 8 && $i == 3) || ($num >= 8 && $i == $num - 2)) {
             echo ' *' . str_repeat('_', $num - 4) . '* ' . "\n";
-/*
-        } elseif ($i ==) {
-            switch ($i) {
-                case $i == $num / 2 - 1 || $i == $num / 2 + 1:
-                    echo '_*' . str_repeat('_', $num - 4) . '*_' . "\n";
-                    break;
-                case $i == $num / 2 - 2 || $i == $num / 2 + 2:
-                    echo '*' . str_repeat('_', $num - 6) . '*__' . "\n";
-                    break;
-                case $i == ($num + 1) / 2 - 3 || $i == ($num + 1) / 2 + 3:
-                    echo '___*' . str_repeat('_', $num - 8) . '*___' . "\n";
-                    break;
-            }
-            echo "\n";
-     */   }
-   }
- }
+        }
+    }
+ } 
